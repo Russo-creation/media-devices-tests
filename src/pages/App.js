@@ -25,6 +25,16 @@ const App = () => {
     };
   }, []);
 
+  useEffect(() => {
+    navigator.mediaDevices.enumerateDevices().then(function (devices) {
+      devices.forEach(function (device) {
+        let [kind, type, direction] = device.kind.match(/(\w+)(input|output)/i);
+
+        alert(device.label, kind, type, direction);
+      });
+    });
+  }, []);
+
   return <div>Hello gh-cd test</div>;
 };
 
