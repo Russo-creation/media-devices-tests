@@ -1,7 +1,8 @@
 {
   "name": "media-device-test",
+  "homepage": "https://russo-creation.github.io/media-devices-tests/",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.12.10",
     "@testing-library/jest-dom": "^5.11.5",

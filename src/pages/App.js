@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 
 const App = () => {
-  return <div>Hello</div>;
+  return <div>Hello gh-cd test</div>;
 };
 
 export default memo(App);
